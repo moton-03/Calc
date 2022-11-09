@@ -1,0 +1,37 @@
+﻿@inject IJSRuntime JSRuntime;
+@page "/"
+
+<PageTitle>Calc</PageTitle>
+<h1>Calc</h1>
+<div>
+    <div>
+        <input type="text" @bind="@var" />
+        <button @onclick="@calc">Calc</button>
+    </div>
+    <div>
+        <p>
+            @result
+        </p>
+    </div>
+</div>
+
+
+@code {
+
+    string var;
+    double result;
+
+    void calc()
+    {
+        result = Eval(var);
+    }
+    public static double Eval(string expression)
+    {
+        System.Data.DataTable table = new System.Data.DataTable();
+        table.Columns.Add("expression", string.Empty.GetType(), expression);
+        System.Data.DataRow row = table.NewRow();
+        table.Rows.Add(row);
+        return double.Parse((string)row["expression"]);
+    }
+
+}
