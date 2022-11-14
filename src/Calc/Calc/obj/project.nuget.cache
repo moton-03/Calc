@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xaG03+e9rF2qJtff5xAvSiqgb2A855iMvmB+Qlqcrz3C2y1hPX0NzZpP41U9DRuswzANpjXju0V/eJ50PLhX5g==",
+  "dgSpecHash": "QeXeq8D+d4bsQtIQOE2avMgQAuSLT3QhWDlQiTuY56Y6ruseyj9aA6qA8Xwdim0cOmQ0Agc7gzb4Uk0f1dpGXw==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\Bird-Tools\\Product\\Calc\\src\\Calc\\Calc\\Calc.csproj",
+  "projectFilePath": "C:\\GitHub\\Bird-Tools-Calc\\src\\Calc\\Calc\\Calc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kirar\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.0-rc.2.22476.2\\microsoft.aspnetcore.authorization.7.0.0-rc.2.22476.2.nupkg.sha512",
     "C:\\Users\\kirar\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.0-rc.2.22476.2\\microsoft.aspnetcore.components.7.0.0-rc.2.22476.2.nupkg.sha512",
@@ -28,10 +28,11 @@
     "C:\\Users\\kirar\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-rc.2.22472.3\\microsoft.extensions.primitives.7.0.0-rc.2.22472.3.nupkg.sha512",
     "C:\\Users\\kirar\\.nuget\\packages\\microsoft.jsinterop\\7.0.0-rc.2.22476.2\\microsoft.jsinterop.7.0.0-rc.2.22476.2.nupkg.sha512",
     "C:\\Users\\kirar\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.0-rc.2.22476.2\\microsoft.jsinterop.webassembly.7.0.0-rc.2.22476.2.nupkg.sha512",
+    "C:\\Users\\kirar\\.nuget\\packages\\publishspaforgithubpages.build\\2.0.2\\publishspaforgithubpages.build.2.0.2.nupkg.sha512",
     "C:\\Users\\kirar\\.nuget\\packages\\system.io.pipelines\\7.0.0-rc.2.22472.3\\system.io.pipelines.7.0.0-rc.2.22472.3.nupkg.sha512",
     "C:\\Users\\kirar\\.nuget\\packages\\system.text.encodings.web\\7.0.0-rc.2.22472.3\\system.text.encodings.web.7.0.0-rc.2.22472.3.nupkg.sha512",
     "C:\\Users\\kirar\\.nuget\\packages\\system.text.json\\7.0.0-rc.2.22472.3\\system.text.json.7.0.0-rc.2.22472.3.nupkg.sha512",
-    "C:\\Users\\kirar\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.0-rc.2.22472.3\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.0-rc.2.22472.3.nupkg.sha512"
+    "C:\\Users\\kirar\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.0\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

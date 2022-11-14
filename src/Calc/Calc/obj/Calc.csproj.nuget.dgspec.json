@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\Bird-Tools\\Product\\Calc\\src\\Calc\\Calc\\Calc.csproj": {}
+    "C:\\GitHub\\Bird-Tools-Calc\\src\\Calc\\Calc\\Calc.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\Bird-Tools\\Product\\Calc\\src\\Calc\\Calc\\Calc.csproj": {
+    "C:\\GitHub\\Bird-Tools-Calc\\src\\Calc\\Calc\\Calc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Bird-Tools\\Product\\Calc\\src\\Calc\\Calc\\Calc.csproj",
+        "projectUniqueName": "C:\\GitHub\\Bird-Tools-Calc\\src\\Calc\\Calc\\Calc.csproj",
         "projectName": "Calc",
-        "projectPath": "C:\\GitHub\\Bird-Tools\\Product\\Calc\\src\\Calc\\Calc\\Calc.csproj",
+        "projectPath": "C:\\GitHub\\Bird-Tools-Calc\\src\\Calc\\Calc\\Calc.csproj",
         "packagesPath": "C:\\Users\\kirar\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Bird-Tools\\Product\\Calc\\src\\Calc\\Calc\\obj\\",
+        "outputPath": "C:\\GitHub\\Bird-Tools-Calc\\src\\Calc\\Calc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0-rc.2.22476.2, )"
+            },
+            "PublishSPAforGitHubPages.Build": {
+              "target": "Package",
+              "version": "[2.0.2, )"
             }
           },
           "imports": [
@@ -69,7 +73,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[7.0.0-rc.2.22472.3, 7.0.0-rc.2.22472.3]"
+              "version": "[7.0.0, 7.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -77,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.2.22477.23\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
