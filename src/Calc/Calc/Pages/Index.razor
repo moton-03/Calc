@@ -2,15 +2,30 @@
 @page "/"
 
 <PageTitle>Calc</PageTitle>
-<h1>Calc</h1>
+
+<style>
+    .Button {
+        background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+        color: white;
+
+        border: none;
+    }
+    .Var {
+        background-image: linear-gradient(90deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+        color: white;
+    }
+</style>
+
+<h1>🧰Calc</h1>
+
 <div>
     <div>
         <input type="text" @bind="@var" />
-        <button @onclick="@calc">Calc</button>
+        <button @onclick="@calc" class="Button">Calc</button>
     </div>
     <div>
-        <p>
-            @result
+        <p class="Var">
+            Result: @result
         </p>
     </div>
 </div>
